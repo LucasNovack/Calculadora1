@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    text-align: center;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.button{
+    border-radius: 8px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.calc-buttons{
+    display: grid;
+    padding: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+   
+}
+
+.result-area{
+    text-align: right;
+    border: 2px solid black;
+    padding: 8px;
+    width: 31.5vh;
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.corpo-calc{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: darkgray;
+    
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+

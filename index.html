@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Calculadora Simples com HTML, CSS e JS</h1>
+    </header>
+
+    <main class="main">
+      <div class="corpo-calc">
+        <div class="result-area">
+          <p class="result" id="resultado">0</p>
+        </div>
+
+        <div class="calc-buttons">
+          <button class="button" id="btn1" onclick="capturaNum('1')">1</button> 
+          <button class="button" id="btn2" onclick="capturaNum('2')">2</button>
+          <button class="button" id="btn3" onclick="capturaNum('3')">3</button>
+          <button class="button" id="btn+" onclick="operacao('+')">+</button>
+          <button class="button" id="btn4" onclick="capturaNum('4')">4</button>
+          <button class="button" id="btn5" onclick="capturaNum('5')">5</button>
+          <button class="button" id="btn6" onclick="capturaNum('6')">6</button>
+          <button class="button" id="btn-" onclick="operacao('-')">-</button>
+          <button class="button" id="btn7" onclick="capturaNum('7')">7</button>
+          <button class="button" id="btn8" onclick="capturaNum('8')">8</button>
+          <button class="button" id="btn9" onclick="capturaNum('9')">9</button>
+          <button class="button" id="btn/" onclick="operacao('/')">÷</button>
+          <button class="button" onclick="limpa()">CLEAR</button>
+          <button class="button" onclick="capturaNum('0')">0</button>
+          <button class="button" value="=" id="btn=" onclick="calcular()">=</button>
+          <button class="button" value="*" id="btn*" onclick="operacao('*')">*</button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
